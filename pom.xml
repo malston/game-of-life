@@ -313,7 +313,7 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>https://10.196.178.28/artifactory/libs-release</url>
+            <url>http://192.168.59.103:8091/artifactory/libs-release</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
