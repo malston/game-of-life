@@ -319,7 +319,18 @@
             </snapshots>
         </repository>
     </repositories>
-
+    <distributionManagement>
+        <repository>
+            <id>3b547bf24dc2</id>
+            <name>3b547bf24dc2-releases</name>
+            <url>http://192.168.59.103:8091/artifactory/ext-release-local</url>
+        </repository>
+        <site>
+           <id>sonar</id>
+           <url>https://10.196.178.27</url>
+        </site>
+    </distributionManagement>
+    <!--
     <distributionManagement>
         <repository>
             <id>central</id>
@@ -331,5 +342,5 @@
            <url>https://10.196.178.27</url>
         </site>
     </distributionManagement>
-
+    -->
 </project>
