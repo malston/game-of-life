@@ -345,7 +345,7 @@
         <repository>
             <id>pivotalservices</id>
             <name>pivotalservices-releases</name>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
+            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/ext-releases-local</url>
         </repository>
     </distributionManagement>
 
