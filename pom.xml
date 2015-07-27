@@ -335,7 +335,7 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-release</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -349,17 +349,4 @@
         </repository>
     </distributionManagement>
 
-    <!--
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>artifactory-release</name>
-            <url>https://10.196.178.28/artifactory/libs-release-local</url>
-        </repository>
-        <site>
-           <id>sonar</id>
-           <url>https://10.196.178.27</url>
-        </site>
-    </distributionManagement>
-    -->
 </project>
