@@ -310,6 +310,7 @@
         </profile>
     </profiles>
 
+    <!--
     <repositories>
         <repository>
             <id>central</id>
@@ -330,6 +331,24 @@
            <url>https://10.196.178.27</url>
         </site>
     </distributionManagement>
+    -->
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>pivotalservices</id>
+            <name>pivotalservices-releases</name>
+            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/libs-releases-local</url>
+        </repository>
+    </distributionManagement>
+
     <!--
     <distributionManagement>
         <repository>
