@@ -331,13 +331,11 @@
            <url>https://10.196.178.27</url>
         </site>
     </distributionManagement>
-    -->
-    <!--
     <distributionManagement>
         <repository>
             <id>pivotalservices</id>
             <name>pivotalservices-releases</name>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-release-local</url>
         </repository>
     </distributionManagement>
     -->
