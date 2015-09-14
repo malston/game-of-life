@@ -332,6 +332,7 @@
         </site>
     </distributionManagement>
     -->
+    <!--
     <distributionManagement>
         <repository>
             <id>pivotalservices</id>
@@ -339,4 +340,5 @@
             <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
         </repository>
     </distributionManagement>
+    -->
 </project>
