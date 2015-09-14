@@ -332,25 +332,11 @@
         </site>
     </distributionManagement>
     -->
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>snapshots</id>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-snapshots</url>
-        </repository>
-    </repositories>
     <distributionManagement>
         <repository>
             <id>pivotalservices</id>
             <name>pivotalservices-releases</name>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/ext-releases-local</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases-local</url>
         </repository>
     </distributionManagement>
-
 </project>
