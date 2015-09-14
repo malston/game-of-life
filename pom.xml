@@ -335,21 +335,21 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/libs-releases</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
         <repository>
             <id>snapshots</id>
-            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/libs-snapshots</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-snapshots</url>
         </repository>
     </repositories>
     <distributionManagement>
         <repository>
             <id>pivotalservices</id>
             <name>pivotalservices-releases</name>
-            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/ext-releases-local</url>
+            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/ext-releases-local</url>
         </repository>
     </distributionManagement>
 
