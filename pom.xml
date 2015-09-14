@@ -334,8 +334,9 @@
     -->
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <url>https://emcconsulting.artifactoryonline.com/emcconsulting/libs-releases</url>
+            <id>pivotalservices</id>
+            <name>pivotalservices-releases</name>
+            <url>https://pivotalservices.artifactoryonline.com/pivotalservices/libs-releases-local</url>
         </repository>
     </distributionManagement>
 </project>
